@@ -87,10 +87,10 @@ export default function AIAssistant() {
     setIsProcessing(true);
     
     try {
-      const response = await fetch('https://api-inference.huggingface.co/models/HuggingFaceH4/zephyr-7b-beta', {
+      const response = await fetch(<END_POINT></END_POINT>, {
         method: 'POST',
         headers: {
-          'Authorization': 'Bearer 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',
+          'Authorization': 'Bearer <API_KEY>',
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({
