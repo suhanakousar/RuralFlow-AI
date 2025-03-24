@@ -1,8 +1,8 @@
 import { EnergyData, WaterData, AgricultureData, Alert, ChatMessage, Weather } from './types';
 
 // API configuration
-const API_ENDPOINT = 'https://huggingface.co';
-const API_KEY = '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'; // Replace with your actual OpenAI API key
+const API_ENDPOINT = <END_POINT>;
+const API_KEY = <API_KEY>; // Replace with your actual OpenAI API key
 
 // Helper function for making API requests
 async function makeApiRequest<T>(path: string): Promise<T> {
