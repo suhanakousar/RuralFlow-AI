@@ -1,8 +1,8 @@
 import fetch from 'node-fetch';
 
 // API configuration
-const API_ENDPOINT = 'https://api-inference.huggingface.co/models/HuggingFaceH4/zephyr-7b-beta';
-const API_KEY = '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';
+const API_ENDPOINT = <END_POINT>;
+const API_KEY = <API_KEY>;
 
 // Helper function for making POST API requests
 async function makePostApiRequest<T>(body: any): Promise<T | null> {
